@@ -1,0 +1,99 @@
+/* Estilos para o formulário de agendamento */
+main.agendamento {
+    padding: 40px;
+    background-color: #1a1a1a; /* Cor de fundo escura, similar ao header */
+    color: #eee;
+    max-width: 800px;
+    margin: 20px auto; /* Centraliza o formulário e adiciona margem */
+    border-radius: 8px;
+    box-shadow: 0 0 15px rgba(128, 0, 255, 0.5); /* Sombra roxa, para combinar com a paleta */
+    border: 1px solid #8000ff; /* Borda sutil para destacar */
+}
+
+main.agendamento h2 {
+    text-align: center;
+    color: #a259ff; /* Roxo mais claro, para títulos */
+    margin-bottom: 30px;
+    font-size: 2.2rem; /* Tamanho da fonte em rem para responsividade */
+    border-bottom: 2px solid #8000ff; /* Linha roxa de destaque */
+    padding-bottom: 15px;
+}
+
+.form-group {
+    margin-bottom: 20px;
+}
+
+.form-group label {
+    display: block;
+    margin-bottom: 8px;
+    font-weight: bold;
+    color: #ccc; /* Cor de texto mais suave para rótulos */
+    font-size: 1.1em;
+}
+
+.form-group input[type="text"],
+.form-group input[type="email"],
+.form-group input[type="tel"],
+.form-group input[type="date"],
+.form-group input[type="time"],
+.form-group input[type="number"],
+.form-group select,
+.form-group textarea {
+    width: 100%; /* Largura total para preencher o contêiner */
+    padding: 12px;
+    border: 1px solid #8000ff; /* Borda roxa, consistente com o tema */
+    background-color: #2a2a2a; /* Fundo escuro para os campos */
+    color: #eee;
+    border-radius: 5px;
+    font-size: 1em;
+    box-sizing: border-box; /* Garante que padding e borda não aumentem a largura total */
+    transition: border-color 0.3s ease, box-shadow 0.3s ease; /* Transição suave ao focar */
+}
+
+/* Estilos para o estado de foco dos campos */
+.form-group input[type="text"]:focus,
+.form-group input[type="email"]:focus,
+.form-group input[type="tel"]:focus,
+.form-group input[type="date"]:focus,
+.form-group input[type="time"]:focus,
+.form-group input[type="number"]:focus,
+.form-group select:focus,
+.form-group textarea:focus {
+    outline: none; /* Remove o contorno padrão do navegador */
+    border-color: #a64dff; /* Borda roxa mais clara ao focar */
+    box-shadow: 0 0 10px rgba(166, 77, 255, 0.7); /* Sombra luminosa roxa ao focar */
+}
+
+.form-group textarea {
+    resize: vertical; /* Permite redimensionar apenas verticalmente */
+    min-height: 100px;
+}
+
+/* Estilos para o botão de ação do formulário */
+.form-actions {
+    text-align: center;
+    margin-top: 30px;
+}
+
+.form-actions button {
+    background-color: #8000ff; /* Cor do botão consistente com o tema */
+    color: #fff;
+    padding: 15px 30px;
+    border: none;
+    border-radius: 5px;
+    font-size: 1.1rem;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.2s ease; /* Transições para hover */
+}
+
+.form-actions button:hover {
+    background-color: #a64dff; /* Cor mais clara ao passar o mouse */
+    transform: translateY(-2px); /* Efeito de "levantar" o botão */
+}
+
+/* Estilos para ícones dentro do formulário, se aplicável */
+.form-group label i {
+    margin-right: 8px;
+    color: #8000ff; /* Cor do ícone */
+}
