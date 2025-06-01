@@ -1,0 +1,17 @@
+bidict==0.23.1
+bottle==0.13.3
+chardet==5.2.0
+dnspython==2.7.0
+eventlet==0.40.0
+filelock==3.18.0
+greenlet==3.2.2
+h11==0.16.0
+Jinja2==3.1.6
+MarkupSafe==3.0.2
+pillow==11.2.1
+python-engineio==4.12.1
+python-socketio==5.13.0
+pytz==2025.2
+reportlab==4.4.1
+simple-websocket==1.1.0
+wsproto==1.2.0

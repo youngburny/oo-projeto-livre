@@ -9,6 +9,7 @@ class Application():
         self.pages = {
             'pagina': self.pagina,
             'agendar': self.agendar,
+            'agendamento_sucesso': self.agendamento_sucesso
         }
 
         self.models = DataRecord()
@@ -39,6 +40,13 @@ class Application():
         
     def agendar(self):
         return template('app/views/html/agendar')
+    
+
+    def agendamento_sucesso(self):
+        return template('app/views/html/agendamento_sucesso')
+        
+    
+    
             
     
             
